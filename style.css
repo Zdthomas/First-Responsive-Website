@@ -1,0 +1,62 @@
+body {
+    padding: 15px;
+     
+
+}
+
+/* main {
+
+} */
+
+.Top {
+    display: flex;
+    background-color: aqua;
+    padding: 30px;
+    
+   
+}
+.Top-inner {
+    display: flex;
+    margin: auto auto;
+    height: 50vh;
+}
+
+.bottom {
+    
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 50vh; */
+    flex-direction: column;
+    
+}
+
+.bottom-inner {
+    border: solid black;
+    display: flex;
+    padding: 30px;
+    margin: 25px;
+    justify-content: space-around;
+     flex-wrap: wrap;
+    
+    
+}
+
+.title{
+    padding: 0 15px;
+    border: solid black
+}
+
+/* .bottom-inner .title {
+    display: flex;
+    align-items: center;
+} */
+
+@media screen and (max-width: 768px) {
+    
+    .Top {
+      background-color: purple;
+
+    
+    }
+  }
